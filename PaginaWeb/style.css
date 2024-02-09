@@ -32,14 +32,16 @@ nav{
     border-bottom: 1px solid;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
-.galeria-noticia-principal{
+
+.noticia-principal{
     width: 80%;
     margin: auto;
     margin-top: 40px;
     border: 2px solid;
-    border-radius: 3px;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: auto auto;
+    background-color: white;
 }
 #foto-luka{
     width:  60vw; /*60%*/
@@ -48,22 +50,35 @@ nav{
     width: 70%;
     margin: auto;
 }
-.texto-enlace-noticia input{
+.texto-enlace-noticia button {
     width: 85%;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-left: 1em;
     padding: 5px;
     background-color: #FF4747;
     border: none;
     border-radius: 4px;
     color: white;
+    text-decoration: none;
 }
-.texto-enlace-noticia input:hover{
+.texto-enlace-noticia button:hover{
     width: 85%;
-    margin-top: 25px;
     padding: 5px;
     background-color: #4277FF;
     border: none;
     border-radius: 4px;
-    transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px 70px 30px  70px;
+}
+.galeria-noticia{
+    border: 1px  solid black;
+    height: 30vh;
+    border-radius: 10px;
+    margin: 10px;
 }
