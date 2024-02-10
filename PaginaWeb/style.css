@@ -160,7 +160,26 @@ nav{
 }*/
 .galeria-noticia{
     border: 1px  solid black;
-    height: 30vh;
+    height: 25vh;
     border-radius: 10px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: solid 1px  black;
+}
+.imagen:hover .detalles {
+    opacity: 1;
+    height: 100%;
+}
+.texto-notica-secundaria{
+    padding-left: 0.5em;
 }
