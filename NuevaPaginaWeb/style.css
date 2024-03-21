@@ -136,16 +136,24 @@ nav ul li a:hover{
 .quienesSomos{
     text-align: center;
 }
-
+.container{
+    margin-top: 2%;
+    background-color: #000814;
+    text-align: center;
+}
+.container .logo{
+    padding-top: 1em;
+    color: #E2E8F0;
+}
 .container ul{
     display: flex;
-    justify-content: left;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
     list-style-type: none;
 }
 .container ul li{
     margin: 7.5px 30px;
-    
+    padding-bottom: 2em;
 }
 .container ul li a{
     text-decoration: none;
