@@ -1,0 +1,183 @@
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    color: #000814;
+    padding: 1.5em;
+    border-bottom: 1px solid #000814 ;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 3em;
+}
+nav ul li{
+    margin: 7.5px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000814;
+    font-size: 15px;
+    transition: all ease .4s;
+}
+nav ul li a:hover{
+    border-bottom: 1.5px solid #000814;
+    transition: 1s;
+}
+.logo{
+    margin-left: 15px;
+}
+.logo a{
+    color: #000814;
+    text-decoration: none;
+}
+.imagen{
+    position: relative;
+    width: 15%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.imagen img{
+    width: 100%;
+    height: auto;
+}
+
+.collage img {
+    width: 32%;
+    height: auto;
+}
+.collage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.quienesSomos{
+    margin-top: 3%;
+    text-align: center;
+}
+.nosotros p{
+    margin-top: 3%;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+.slogan{
+    padding-left: 15%;
+    color: white;
+}
+.banner{
+    margin-top: 5em;
+    border:  rgb(36, 36, 36);
+    background-color:  rgb(36, 36, 36);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img{
+    max-width: 50%;
+    height: auto;
+    border-left: 3px solid white;
+}
+.enganche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enganche button{
+    border: 3px solid white;
+    background-color:  rgb(36, 36, 36);
+    color: white;
+    border-radius: 25px;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 1em ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.enganche button:hover{
+    border: 3px solid white;
+    background-color:white;
+    color:#000814;
+    border-radius: 25px;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.enganche button a{
+    text-decoration: none;
+    color: white;
+}
+.enganche button a:hover{
+    color:  rgb(36, 36, 36); 
+}
+.quienesSomos{
+    text-align: center;
+}
+
+.container ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style-type: none;
+}
+.container ul li{
+    margin: 7.5px 30px;
+    
+}
+.container ul li a{
+    text-decoration: none;
+    color: #E2E8F0;
+    font-size: 12px;
+    transition: all ease .4s;
+}
+.container ul li a:hover{
+    color: gray;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.trabajo{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: center;
+}
+.marcasPopulares{
+    text-align: center;
+    margin-top: 2em;
+}
+.contenedorMarcas{
+    margin-left: 0.5em;
+    display: grid;
+    grid-template-columns: auto auto auto 
+}
+.contenedorMarcas img{
+    margin-top: 1em;
+    width: 95%;
+}
+.contenedorMarcas img:hover{
+    cursor: pointer;
+}
