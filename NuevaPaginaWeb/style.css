@@ -226,6 +226,11 @@ nav ul li a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.4s ;
+}
+.etiqueta:hover img{
+    transform:rotate(-8deg) translateY( -1em );
+    transition: 0.4s;
 }
 
 .descripcion{
