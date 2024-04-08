@@ -1,0 +1,150 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+main{
+    font-family: sans-serif;
+}
+.efecto{
+    position: relative;
+    width: 100%; /* Ajusta el tamaño del contenedor según sea necesario */
+    height: 55em; /* Ajusta el tamaño del contenedor según sea necesario */
+    overflow: hidden;
+}
+.formulario{
+    padding: 20px;
+    border: 1px black;
+    width: 50%;
+    margin: auto; 
+    margin-top: -45em;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    opacity: 90%;
+}
+
+.formulario h2{
+    text-align: center;
+}
+.entrada{
+    margin: 15px;
+    border-radius: 5px;
+}
+#enviar{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    border: 1px solid  black;
+    border-radius:  5px;
+    background-color: black;
+    color: white;
+}
+#enviar:hover{
+    background-color: white;
+    color: black;
+}
+.entrada input{
+    width: 60%;
+    float: right;
+    height: 17px;
+} 
+input:focus{
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+input{
+    
+    border: none;
+}
+  
+.zapatilla {
+    position: absolute;
+    width: 100px; /* Ajusta el tamaño de la zapatilla según sea necesario */
+    height: 100px; /* Ajusta el tamaño de la zapatilla según sea necesario */
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: moverAbajo 5s linear infinite, girar 10s linear infinite;
+    filter: blur(0.7px);
+    z-index: -1;
+}
+  
+  /* Define las posiciones iniciales de las zapatillas */
+.zapatilla1 {
+    background-image: url('AJ1High/AJ1\ Retro\ High\ Dior.png');
+    left: 5%;
+    animation-delay: 0.5s;
+}
+  
+.zapatilla2 {
+    background-image: url('AJ1Low/AJ1LowBredToe.png');
+    left: 30%;
+    animation-delay: 0s;
+}
+  
+.zapatilla3 {
+    background-image: url('Yeezy/Yeezy\ 350\ beluga.png');
+    left: 50%;
+    animation-delay: 4s;
+}
+  
+.zapatilla4 {
+    background-image: url('AJ1High/AJ1\ Retro\ High\ mocha.png');
+    left: 70%;
+    animation-delay: 1.5s
+}
+  
+.zapatilla5 {
+    background-image: url('AJ1Low/AJ1LowElephant.png');
+    left: 85%;
+    animation-delay: 3s
+}
+  
+.zapatilla6 {
+    background-image: url('Yeezy/Yeezy\ 500\ black.png');
+    left: 30%;
+    animation-delay: 2s;
+}
+  
+.zapatilla7 {
+    background-image: url('AJ1High/AJ1\ retro\ High\ OG.png');
+    left: 5%;
+    animation-delay: 3s;
+}
+  
+.zapatilla8 {
+    background-image: url('AJ1Low/AJ1LowTravisLeft.png');
+    left: 85%;
+    animation-delay: 4s;
+}
+  
+.zapatilla9 {
+    background-image: url('Yeezy/Yezzy\ Slide\ Bone.png');
+    left: 50%;
+    animation-delay: 6s;
+}
+  
+@keyframes moverAbajo {
+    0% {
+      top: -30px; /* Posición inicial de la zapatilla (fuera de la pantalla) */
+    }
+    100% {
+      top: calc(100vh - 30px); /* Posición final de la zapatilla (parte inferior de la pantalla) */
+    }
+}
+  
+@keyframes girar {
+    0% {
+      transform: rotate(0deg); /* Sin rotación al principio */
+    }
+    100% {
+      transform: rotate(360deg); /* Rotación completa al final */
+    }
+}
+footer{
+    position: absolute; /* Fija el footer en la parte inferior */
+    width: 100%;
+    bottom: 0;
+}
+  
